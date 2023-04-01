@@ -12,6 +12,11 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("Hello Jenkin, Thank You for bringing me up");
+            
+            
+            
+            // It will hold your programm for your input
+            Console.ReadLine();
         }
     }
 }
