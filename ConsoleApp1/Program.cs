@@ -11,7 +11,6 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            rrror
             Console.WriteLine("Hello Jenkin, Thank You for bringing me up");
         }
     }
