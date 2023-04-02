@@ -5,24 +5,41 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace CalculatorApp
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Jenkin, Thank You for bringing me up");
-            int i = 0;
-             for(; i<1000; ++i)
-            {
-                Console.WriteLine("Read the value of i = " + i.ToString());
-            }
+            // Your code goes here
+        }
+    }
 
-            
-           
-            
-            // It will hold your programm for your input
-            Console.ReadLine();
+    public class Calculator
+    {
+        public double Add(double num1, double num2)
+        {
+            return num1 + num2;
+        }
+
+        public double Subtract(double num1, double num2)
+        {
+            return num1 - num2;
+        }
+
+        public double Multiply(double num1, double num2)
+        {
+            return num1 * num2;
+        }
+
+        public double Divide(double num1, double num2)
+        {
+            if (num2 == 0)
+            {
+                throw new DivideByZeroException("Cannot divide by zero");
+            }
+            return num1 / num2;
         }
     }
 }
+
