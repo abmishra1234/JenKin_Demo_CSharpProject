@@ -7,11 +7,15 @@ using System.Threading.Tasks;
 
 namespace CalculatorApp
 {
-    class Program
+    namespace MyProgram
     {
-        static void Main(string[] args)
+        class Program
         {
             // Your code goes here
+            static void Main(string[] args)
+            {
+                // Your code goes here
+            }
         }
     }
 
