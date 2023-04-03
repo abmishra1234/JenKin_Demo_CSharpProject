@@ -11,9 +11,12 @@ namespace CalculatorApp
     {
         class Program
         {
+            // Your code goes here
             static void Main(string[] args)
             {
                 // Your code goes here
+                Console.WriteLine("Just Testing this main method here...");
+                Console.ReadLine();
             }
         }
     }
@@ -45,3 +48,4 @@ namespace CalculatorApp
         }
     }
 }
+
